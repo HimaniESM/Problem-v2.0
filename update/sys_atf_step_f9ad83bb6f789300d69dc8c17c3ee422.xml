@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Set the values on the form as follows:
+Resolution Notes = Problem Fixed
+and Close notes = Solved Permanently
+and Additional comments = Changing atate to closed/resolved</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <order>22</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-03-19 11:48:39</sys_created_on>
+        <sys_id>f9ad83bb6f789300d69dc8c17c3ee422</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_atf_step_f9ad83bb6f789300d69dc8c17c3ee422</sys_update_name>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-19 11:48:39</sys_updated_on>
+        <table>problem</table>
+        <test display_value="Problem Management-1">7d3887b76f789300d69dc8c17c3ee41f</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f9ad83bb6f789300d69dc8c17c3ee422"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f9ad83bb6f789300d69dc8c17c3ee422</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-03-19 11:48:39</sys_created_on>
+        <sys_id>82ddc3bb6f789300d69dc8c17c3ee41a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-19 11:48:39</sys_updated_on>
+        <value>x_infte_esm_it_pro_resolution_notes=1^close_notes=Solved Permanently^comments=Changing atate to closed/resolved^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f9ad83bb6f789300d69dc8c17c3ee422</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-03-19 11:48:39</sys_created_on>
+        <sys_id>ceddc3bb6f789300d69dc8c17c3ee419</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-19 11:48:39</sys_updated_on>
+        <value>problem</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description>email template of RCA notification</description>
+        <layout><![CDATA[<table height="5" style="width: 725px; background-color: #1182f2;">
+<tbody>
+<tr>
+<td><img src="sys_attachment.do?sys_id=6c220eff4ff4930053c240f18110c718" vspace="" hspace="" border="" align="baseline" alt="" title="" width="130" height="30" style="align: baseline;" /></td>
+</tr>
+</tbody>
+</table>
+<table width="725" height="9" style="background-color: #a3a2a2; height: 21px;">
+<tbody>
+<tr>
+<td>${mail_script:esm_subject}</td>
+</tr>
+</tbody>
+</table>
+<p>${notification:body}</p>
+<p><strong><span style="text-decoration-line: underline;">Problem Summary :</span></strong></p>
+<p><strong>Priority</strong>: ${sysapproval.priority}<br /><strong>Category</strong>: ${sysapproval.category}<br /><strong>Short Description</strong>: ${sysapproval.short_description}<br /><strong>Comments</strong>:${sysapproval.description}<br /><br /><strong><span style="text-decoration-line: underline;">Quick Links :</span></strong></p>
+<p><strong>${mailto:mailto.approval}</strong></p>
+<p><strong>${mailto:mailto.rejection}</strong></p>
+<hr style="width: 725px; float: left;" />
+<p></p>
+<p><span style="text-decoration: underline;"><strong>Approval activity:</strong></span></p>
+<p>${mail_script:approval_activity_esm_rca}</p>
+<hr style="width: 725px; float: left;" />
+<p></p>
+<p>Click here to view Approval Request: ${URI}</p>
+<div>Click here to view ${sysapproval.sys_class_name}: ${sysapproval.URI}</div>
+<hr style="width: 725px; float: left;" />
+<p></p>
+<table width="725" height="65" style="background-color: #1b7ee0; height: 38px;">
+<tbody>
+<tr>
+<td>
+<p><span style="color: #ffffff;">For any query please contact to Service Desk :9999 999 999</span></p>
+<p><span style="color: #ffffff;">This is an automated message. Please do not reply.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>${NOTIF_UNSUB} &nbsp;| ${NOTIF_PREFS}</p>
+<p></p>]]></layout>
+        <name>ESM RCA Email Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-03-20 06:03:10</sys_created_on>
+        <sys_id>4b584fc06f81d300d69dc8c17c3ee4b8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ESM RCA Email Layout</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_email_layout_4b584fc06f81d300d69dc8c17c3ee4b8</sys_update_name>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-03-20 06:07:31</sys_updated_on>
+    </sys_email_layout>
+</record_update>

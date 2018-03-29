@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>x_infte_esm_it_pro_root_cause_analysis</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-17 14:53:21</sys_created_on>
+        <sys_id>7ec4ad1f4ff4530053c240f18110c751</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_infte_esm_it_pro_root_cause_analysis</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7ec4ad1f4ff4530053c240f18110c751</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-17 16:53:01</sys_updated_on>
+        <table>problem</table>
+        <ui_policy display_value="Display RCA">8c74e91f4ff4530053c240f18110c754</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

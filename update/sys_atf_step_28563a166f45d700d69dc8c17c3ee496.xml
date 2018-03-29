@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>There should be at least one record in 'sysapproval_approver' matching a query of
+State = Requested
+and Approving = {{Step 21: Click a UI Action.Record}}
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <order>23</order>
+        <step_config display_value="Record Query">0270b8005f30220012b44adb7f46666a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-03-27 04:31:40</sys_created_on>
+        <sys_id>28563a166f45d700d69dc8c17c3ee496</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_atf_step_28563a166f45d700d69dc8c17c3ee496</sys_update_name>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-27 04:42:52</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <test display_value="Problem Management-3">92d753336fb89300d69dc8c17c3ee487</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=28563a166f45d700d69dc8c17c3ee496"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>28563a166f45d700d69dc8c17c3ee496</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-03-27 04:31:40</sys_created_on>
+        <sys_id>47863e166f45d700d69dc8c17c3ee458</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-27 04:31:40</sys_updated_on>
+        <value>state=requested^document_id={{step['b9f53a166f45d700d69dc8c17c3ee415'].record_id}}^EQ</value>
+        <variable display_value="">cf167c405f30220012b44adb7f46660d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>28563a166f45d700d69dc8c17c3ee496</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-03-27 04:31:40</sys_created_on>
+        <sys_id>83863e166f45d700d69dc8c17c3ee458</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-27 04:31:40</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="">6fe5f8405f30220012b44adb7f4666e4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=28563a166f45d700d69dc8c17c3ee496"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>28563a166f45d700d69dc8c17c3ee496</id>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-03-27 04:31:40</sys_created_on>
+        <sys_id>03863e166f45d700d69dc8c17c3ee458</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-27 04:31:40</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value>state=requested^document_id={{step['b9f53a166f45d700d69dc8c17c3ee415'].record_id}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>28563a166f45d700d69dc8c17c3ee496</id>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-03-27 04:31:40</sys_created_on>
+        <sys_id>4f863e166f45d700d69dc8c17c3ee457</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-27 04:31:40</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

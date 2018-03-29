@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Problem Task Close Validation</description>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Problem Task Record","reference":"problem_task","reference_display":"Problem Task","type":"reference","base_type":"reference"},{"name":"Created_1.current.parent","label":"Trigger➛Problem Task Record➛Parent","reference":"task","reference_display":"Parent","type":"reference","base_type":"reference","parent_table_name":"problem_task","column_name":"parent"},{"name":"Created_1.current.problem","label":"Trigger➛Problem Task Record➛Problem","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference","parent_table_name":"problem_task","column_name":"problem"},{"name":"4f2c4efd-90e2-4ac2-87fe-a1fce7947ce6.Record","label":"1➛Problem Record","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot display_value="ESM_PM_TaskCloseValidation">fe0543374fb8930053c240f18110c742</latest_snapshot>
+        <name>ESM_PM_TaskCloseValidation</name>
+        <show_draft_actions>false</show_draft_actions>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-17 14:17:29</sys_created_on>
+        <sys_id>eabc59974ff4530053c240f18110c72d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ESM_PM_TaskCloseValidation</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_hub_flow_eabc59974ff4530053c240f18110c72d</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-19 11:10:14</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

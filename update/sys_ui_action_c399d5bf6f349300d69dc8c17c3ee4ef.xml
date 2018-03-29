@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>chg_create_normal_change</action_name>
+        <active>false</active>
+        <client>false</client>
+        <comments/>
+        <condition>gs.hasRole("itil") &amp;&amp; current.rfc.nil()</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create Normal Change</name>
+        <onclick/>
+        <order>101</order>
+        <script><![CDATA[(function(current, previous, gs, action) {
+	var changeRequest = ChangeRequest.newNormal();
+	changeRequest.setValue("short_description", current.short_description);
+	changeRequest.setValue("description", current.description);
+	changeRequest.setValue("cmdb_ci", current.cmdb_ci);
+	changeRequest.setValue("priority", current.priority);
+	changeRequest.setValue("sys_domain", current.sys_domain);
+	changeRequest.setValue("company", current.company);
+	changeRequest.setValue("parent", current.sys_id);
+	changeRequest.insert();
+	
+	current.rfc = changeRequest.getGlideRecord().getUniqueValue();
+	current.update();
+	gs.addInfoMessage(gs.getMessage("Change {0} created", changeRequest.getValue("number")));
+	action.setRedirectURL(changeRequest.getGlideRecord());
+	action.setReturnURL(current);
+	
+})(current, previous, gs, action);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-19 03:21:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c399d5bf6f349300d69dc8c17c3ee4ef</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create Normal Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_ui_action_c399d5bf6f349300d69dc8c17c3ee4ef</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-19 10:43:52</sys_updated_on>
+        <table>problem</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

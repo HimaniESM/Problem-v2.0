@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>approval_activity_esm_rca</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	var approvers = new GlideRecord('sysapproval_approver');
+	approvers.addNotNullQuery('approver')
+	approvers.addQuery('approver', '!=', current.approver);
+	approvers.addQuery('sysapproval', current.sysapproval);
+	approvers.addQuery('state', 'IN', 'approved,rejected,requested');
+	approvers.orderBy('approver');
+	approvers.query();
+	var limit = 20;
+	approvers.setLimit(limit);
+	if (approvers.getRowCount() > 0) {
+		while (approvers.next()) {
+			template.print(approvers.approver.getDisplayValue() + ' - ' + approvers.state.getDisplayValue() + '<br/>');
+		}
+		if (approvers.getRowCount() > limit) {
+			template.print('Additional approvers are available and require viewing the record.<br/>');
+		}
+	} else {
+		template.print('You are the sole approver.<br/>');
+	}
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-03-20 06:12:01</sys_created_on>
+        <sys_id>474ac3446f81d300d69dc8c17c3ee469</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approval_activity_esm_rca</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_script_email_474ac3446f81d300d69dc8c17c3ee469</sys_update_name>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-03-20 06:12:01</sys_updated_on>
+    </sys_script_email>
+</record_update>

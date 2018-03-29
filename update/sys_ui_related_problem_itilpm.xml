@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="problem" version="2" view="ItilPM">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>incident.problem_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>135acc264f89d70053c240f18110c729</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>change_request.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>175acc264f89d70053c240f18110c729</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>problem_task.problem</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>1b5acc264f89d70053c240f18110c729</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>problem.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>1f5acc264f89d70053c240f18110c729</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>task_time_worked.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>d35a00664f89d70053c240f18110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>task_ci.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>d75a00664f89d70053c240f18110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>task_outage.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>db5a00664f89d70053c240f18110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>7</position>
+            <related_list>m2m_kb_task.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>df5a00664f89d70053c240f18110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - ItilPM" name="problem" related_list="NULL" sys_domain="global" view="636f975a4f09d70053c240f18110c7ff">5b5acc264f89d70053c240f18110c728</list_id>
+            <order_by/>
+            <position>8</position>
+            <related_list>x_infte_rca_templa_rca_template_table.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_id>d35a00664f89d70053c240f18110c730</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Problem - ItilPM</calculated_name>
+            <filter/>
+            <name>problem</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-27 10:37:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b5acc264f89d70053c240f18110c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Problem - ItilPM</sys_name>
+            <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+            <sys_update_name>sys_ui_related_problem_ItilPM</sys_update_name>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-27 10:37:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="ItilPM" name="ItilPM">636f975a4f09d70053c240f18110c7ff</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
